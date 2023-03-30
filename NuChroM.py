@@ -64,21 +64,18 @@ def main():
     parser.add_argument(
         "--sysname",
         type=str,
-        nargs="?",
         default="chrom_unknown",
         help="The name of the simulated structure.",
     )
     parser.add_argument(
         "--outpath",
         type=str,
-        nargs="?",
         default="output",
         help="Path to save the output files.",
     )
     parser.add_argument(
         "--outfilename",
         type=str,
-        nargs="?",
         default="chrom_unknown",
         help="Prefix of the output trajectory files.",
     )
